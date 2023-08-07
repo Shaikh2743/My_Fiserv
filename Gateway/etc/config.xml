@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+    <default>
+        <payment>
+            <Fiserv>
+                <active>1</active>
+                <model>Fiserv\Gateway\Model\FiservPaymentMethod</model>
+                <pending_order_status>payment_Fiserv _pending</pending_order_status>
+                <success_order_status>payment_Fiserv _success</success_order_status>
+                <success_order_message>Fiserv  Payment Success</success_order_message>
+                <failure_order_status>payment_Fiserv _failed</failure_order_status>
+                <failure_order_message>Fiserv  Payment Failed</failure_order_message>
+                <order_status>pending</order_status>
+                <title>Fiserv</title>               
+            </Fiserv>          
+        </payment>
+    </default>
+</config>
+

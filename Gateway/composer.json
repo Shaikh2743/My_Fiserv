@@ -1,0 +1,26 @@
+{
+  "name": "Fiserv/Fiserv-magento-2",
+  "description": "Fiserv integration for Magento 2",
+  "type": "magento2-module",
+  "homepage": "https://Fiserv.com",
+  "keywords": ["Fiserv", "magento", "magento 2", "plugin", "extension", "payment", "gateway"],
+  "version": "2.0.0",
+  "license": [
+      "MIT"
+  ],
+  "require": {
+    "php": "~5.6.0|~7.0.0",
+    "magento/framework": ">=100.0.4 <102"
+  },
+  "autoload": {
+    "files": [ "registration.php" ],
+    "psr-4": {
+      "Fiserv\\Gateway\\": ""
+    }
+  },
+  "support": {
+        "issues": "https://Fiserv.com",
+        "docs": "https://Fiserv.com",
+        "email": "support@Fiserv.com"
+    }
+}
